@@ -14,7 +14,7 @@ void switches() {
     std::cout << "Enter a month from 1 - 12: ";
     std::cin >> month;
 
-    switch(month){
+    switch (month) {
         case 1:
             std::cout << "It is January";
             break;
@@ -75,7 +75,7 @@ void calculatorprogram() {
     std::cout << "Enter second number: ";
     std::cin >> num_2;
 
-    switch(op) {
+    switch (op) {
         case '+':
             result = num_1 + num_2;
             std::cout << "Result: " << result;
@@ -95,7 +95,6 @@ void calculatorprogram() {
         default:
             std::cout << "That wasn;t a valid response\n";
             break;
-
     }
 }
 
@@ -126,10 +125,9 @@ void logicalOperators() {
     std::cout << "Enter the temperature: ";
     std::cin >> temperature;
 
-    if(temperature <= 0 ||temperature >= 30) {
+    if (temperature <= 0 || temperature >= 30) {
         std::cout << "The temperature is bad\n";
-    }
-    else {
+    } else {
         std::cout << "The temperature is good\n";
     }
 }
@@ -147,13 +145,12 @@ void temperatureConversionProgram() {
     std::cout << "What unit would you like to convert to: ";
     std::cin >> unit;
 
-    if(unit == 'F' || unit == 'f') {
+    if (unit == 'F' || unit == 'f') {
         std::cout << "Enter the temperature in Celsius: ";
         std::cin >> temp;
 
         std::cout << "Temperature is: " << (1.8 * temp) + 32.0 << "F\n";
-    }
-    else if(unit == 'C' || unit == 'c')  {
+    } else if (unit == 'C' || unit == 'c') {
         std::cout << "Enter the temperature in Fahrenheit: ";
         std::cin >> temp;
 
@@ -170,13 +167,11 @@ void usefulStringMethod() {
     std::cout << "Enter your name: ";
     std::cin >> name;;
 
-    if(name.length() > 12) {
+    if (name.length() > 12) {
         std::cout << "your name can't be over 12 characters";
-    }
-    else {
+    } else {
         std::cout << "welcome " << name << "\n";
     }
-
 }
 
 /**
@@ -188,7 +183,7 @@ void whileLoop() {
     do {
         std::cout << "Enter a positive number: ";
         std::cin >> number;
-    }while(number < 0);
+    } while (number < 0);
 }
 
 /**
@@ -196,7 +191,7 @@ void whileLoop() {
  */
 void forLoop() {
     std::cout << "==================== For Loop ====================" << '\n';
-    for(int index = 10; index >= 0; index--) {
+    for (int index = 10; index >= 0; index--) {
         std::cout << index << "\n";
     }
     std::cout << "HAPPY NEW YEAR!!!";
@@ -209,8 +204,8 @@ void breakCcontinues() {
     std::cout << "==================== Breaks & Continues ====================" << '\n';
     // Break = break out of a loop
     // continue = skip current iteration
-    for(int i = 1; i <= 20; i++) {
-        if(i == 13) {
+    for (int i = 1; i <= 20; i++) {
+        if (i == 13) {
             continue;
         }
         std::cout << i << "\n";
@@ -240,7 +235,7 @@ void fuction() {
     std::cout << result << "\n";
 }
 
-double square(double length){
+double square(double length) {
     return length * length;
 }
 

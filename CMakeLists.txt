@@ -17,4 +17,5 @@ add_executable(hello_cpp
         C++_beginner/04_namespace.cpp
         C++_beginner/05_typedef_type_aliases.cpp
         C++_beginner/06_arithmetic_operators.cpp
-        C++_beginner/30_banking_program.cpp)
+        C++_beginner/30_banking_program.cpp
+        C++_beginner/hello.cpp)

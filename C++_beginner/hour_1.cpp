@@ -21,10 +21,10 @@ void arithmeticOperators() {
     students--;
     std::cout << students << '\n';
 
-    students/=2;
+    students /= 2;
     std::cout << students << '\n';
 
-    students*=5;
+    students *= 5;
     std::cout << students << '\n';
 }
 
@@ -34,21 +34,18 @@ void arithmeticOperators() {
 void typeConversion() {
     std::cout << "==================== Type conversion ====================" << '\n';
     //Convert ưhile creating the vảiable
-        // Int convert into char
-        char x = 100;
-        std::cout << x << "\n";
-        // The number present a characters the table to convert:
-        // https://www.cs.cmu.edu/~pattis/15-1XX/common/handouts/ascii.html
+    // Int convert into char
+    char x = 100;
+    std::cout << x << "\n";
+    // The number present a characters the table to convert:
+    // https://www.cs.cmu.edu/~pattis/15-1XX/common/handouts/ascii.html
 
     // Convert ehilr doing some math
-        int correct = 8;
-        int questions = 10;
-        double percent_correct = correct / (double) questions * 100;
+    int correct = 8;
+    int questions = 10;
+    double percent_correct = correct / (double) questions * 100;
 
-        std::cout << percent_correct << "%" << "\n";
-
-
-
+    std::cout << percent_correct << "%" << "\n";
 }
 
 /**
@@ -68,7 +65,6 @@ void userInput() {
 
     std::cout << "Hello " << name << "\n";
     std::cout << "You are " << age << " years old\n";
-
 }
 
 /**
@@ -112,7 +108,6 @@ void hypotenuseCalculatorProgram() {
     f = sqrt(d + e);
 
     std::cout << "Side C: " << f;
-
 }
 
 /**
@@ -124,16 +119,13 @@ void ifStatements() {
     std::cout << "Enter your age: ";
     std::cin >> age_1;
 
-    if(age_1 >= 100) {
+    if (age_1 >= 100) {
         std::cout << "You are too old to enter this site!";
-    }
-    else if(age_1 <= 0) {
+    } else if (age_1 <= 0) {
         std::cout << "You haven't been born yet!";
-    }
-    else if(age_1 >= 18) {
+    } else if (age_1 >= 18) {
         std::cout << "Welcome to the site!";
-    }
-    else {
+    } else {
         std::cout << "You are not ole enough to enter!";
     }
 }
