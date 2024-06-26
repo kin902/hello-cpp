@@ -9,17 +9,17 @@ void printNum();
 int myNum = 3;
 
 int main() {
- int myNum = 2;
+    int myNum = 2;
 
- printNum();
+    printNum();
 
- std::cout << myNum << "\n";
- std::cout << ::myNum << "\n";
- return 0;
+    std::cout << myNum << "\n";
+    std::cout << ::myNum << "\n";
+    return 0;
 }
 
 void printNum() {
- int myNum = 1;
- std::cout << myNum << "\n";
+    int myNum = 1;
+    std::cout << myNum << "\n";
 }
 */

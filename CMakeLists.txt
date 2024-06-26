@@ -4,12 +4,7 @@ project(hello_cpp)
 set(CMAKE_CXX_STANDARD 20)
 
 add_executable(hello_cpp
-        C++_beginner/hour_1.cpp
         C++_beginner/hour_2.cpp
-        C++_beginner/hour_3.cpp
-        C++_beginner/hour_4.cpp
-        C++_beginner/hour_5.cpp
-        C++_beginner/hour_6.cpp
         C++_beginner/29_variable_scope.cpp
         C++_beginner/01_setup_enviroment.cpp
         C++_beginner/02_basic_data_types.cpp
@@ -18,4 +13,12 @@ add_executable(hello_cpp
         C++_beginner/05_typedef_type_aliases.cpp
         C++_beginner/06_arithmetic_operators.cpp
         C++_beginner/30_banking_program.cpp
-        C++_beginner/hello.cpp)
+        C++_beginner/07_type_conversion.cpp
+        C++_beginner/08_user_input.cpp
+        C++_beginner/09_useful_math_functions.cpp
+        C++_beginner/10_hypotenuse_calculator_program.cpp
+        C++_beginner/11_if_statements.cpp
+        C++_beginner/12_switches.cpp
+        C++_beginner/13_console_calculate_program.cpp
+        C++_beginner/14_ternary_operator.cpp
+        C++_beginner/31_rock_paper_scissors_game.cpp)
