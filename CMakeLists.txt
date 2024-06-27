@@ -21,4 +21,6 @@ add_executable(hello_cpp
         C++_beginner/12_switches.cpp
         C++_beginner/13_console_calculate_program.cpp
         C++_beginner/14_ternary_operator.cpp
-        C++_beginner/31_rock_paper_scissors_game.cpp)
+        C++_beginner/31_rock_paper_scissors_game.cpp
+        C++_beginner/15_lodical_operator.cpp
+        C++_beginner/16_temperature_conversion_program.cpp)
