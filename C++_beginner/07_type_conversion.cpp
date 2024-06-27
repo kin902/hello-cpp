@@ -7,14 +7,14 @@
 /*
 int main() {
     std::cout << "==================== Type conversion ====================" << '\n';
-    //Convert ưhile creating the vảiable
+    //Convert while creating the vảiable
     // Int convert into char
     char x = 100;
     std::cout << x << "\n";
     // The number present a characters the table to convert:
     // https://www.cs.cmu.edu/~pattis/15-1XX/common/handouts/ascii.html
 
-    // Convert ehilr doing some math
+    // Convert while doing some math
     int correct = 8;
     int questions = 10;
     double percent_correct = correct / (double) questions * 100;

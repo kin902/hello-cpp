@@ -5,6 +5,7 @@
 ** Rock Paper Scissor Game: https://www.youtube.com/watch?v=-TkoO8Z07hI&t=9484s
  */
 
+/*
 char getUserCHoice();
 
 char getComputerChoice();
@@ -101,3 +102,4 @@ void chooseWinner(char player, char computer) {
             }
     }
 }
+*/

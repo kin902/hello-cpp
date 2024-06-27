@@ -4,7 +4,7 @@
  */
 
 /*
-void arithmeticOperators() {
+int main() {
     std::cout << "==================== Arithmetic Operators ====================" << '\n';
     int students = 20;
 
@@ -22,5 +22,7 @@ void arithmeticOperators() {
 
     students*=5;
     std::cout << students << '\n';
+
+    return 0;
 }
 */

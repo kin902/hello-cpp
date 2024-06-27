@@ -8,7 +8,8 @@
 typedef std::vector<std::pair<std::string, int>> pairList_t;
 typedef std::string text_t;
 using number_t = int;
-void typeDef() {
+
+int main() {
     std::cout << "==================== Typedef ====================" << '\n';
 
     text_t firstName = "Bro";

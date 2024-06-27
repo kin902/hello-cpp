@@ -1,6 +1,6 @@
 #include <iostream>
 /**
- ** Vảiable Scope: https://www.youtube.com/watch?v=-TkoO8Z07hI&t=8389s
+ ** Variable Scope: https://www.youtube.com/watch?v=-TkoO8Z07hI&t=8389s
  */
 
 /*
@@ -9,6 +9,7 @@ void printNum();
 int myNum = 3;
 
 int main() {
+std::cout << "==================== Variable Scope ====================" << '\n';
     int myNum = 2;
 
     printNum();

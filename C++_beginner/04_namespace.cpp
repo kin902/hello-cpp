@@ -13,7 +13,7 @@ namespace second {
     int x = 583;
 }
 
-void nameSpace() {
+int main() {
     std::cout << "==================== Namespace ====================" << '\n';
     using namespace second;
 

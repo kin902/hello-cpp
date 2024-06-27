@@ -5,7 +5,7 @@
 
 /*
 int main() {
-std::cout << "==================== Variable ====================" << '\n';
+    std::cout << "==================== Variable ====================" << '\n';
 
     // integer
     int x = 5; // decoration variable `x`

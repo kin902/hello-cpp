@@ -22,5 +22,10 @@ add_executable(hello_cpp
         C++_beginner/13_console_calculate_program.cpp
         C++_beginner/14_ternary_operator.cpp
         C++_beginner/31_rock_paper_scissors_game.cpp
-        C++_beginner/15_lodical_operator.cpp
-        C++_beginner/16_temperature_conversion_program.cpp)
+        C++_beginner/15_logical_operator.cpp
+        C++_beginner/16_temperature_conversion_program.cpp
+        "C++_beginner/32_array.cpp"
+        C++_beginner/33_sizeof_operator.cpp
+        C++_beginner/34_literate_over_an_array.cpp
+        C++_beginner/35_foreach_loop.cpp
+        C++_beginner/36_pass_array_to_a_functions.cpp)
