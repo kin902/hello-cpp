@@ -85,6 +85,19 @@ void chooseWinner(char player, char computer) {
             } else if (computer == 'p') {
                 std::cout << "You lose";
             }
-
+        case 's': if (computer == 's') {
+                std::cout << "It is a tie";
+            } else if (computer == 'p') {
+                std::cout << "You win";
+            } else if (computer == 'r') {
+                std::cout << "You lose";
+            }
+        case 'p': if (computer == 'p') {
+                std::cout << "It is a tie";
+            } else if (computer == 'r') {
+                std::cout << "You win";
+            } else if (computer == 's') {
+                std::cout << "You lose";
+            }
     }
 }
