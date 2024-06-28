@@ -15,4 +15,4 @@ int main() {
     std::cout << (grade >= 60 ? "You pass!\n" : "You fail!\n");
     return 0;
 }
-*/
+//*/

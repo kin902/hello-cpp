@@ -4,6 +4,7 @@
  * Pass array to a functions: https://www.youtube.com/watch?v=-TkoO8Z07hI&t=11316s
  */
 
+/*
 double getTotal(double prices[], int size);
 
 int main() {
@@ -23,3 +24,4 @@ double getTotal(double prices[], int size) {
     }
     return total;
 }
+//*/

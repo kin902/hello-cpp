@@ -28,4 +28,8 @@ add_executable(hello_cpp
         C++_beginner/33_sizeof_operator.cpp
         C++_beginner/34_literate_over_an_array.cpp
         C++_beginner/35_foreach_loop.cpp
-        C++_beginner/36_pass_array_to_a_functions.cpp)
+        C++_beginner/36_pass_array_to_a_functions.cpp
+        C++_beginner/37_search_an_array_for_an_element.cpp
+        C++_beginner/38_sort_an_array.cpp
+        C++_beginner/39_fill_function.cpp
+        C++_beginner/40_fill_an_array_with_user_input.cpp)
