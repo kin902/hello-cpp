@@ -12,7 +12,7 @@ int main() {
     double prices[] = {7.00, 4.65, 7.30};
     int size = 0;
     for (const double &price: prices) {
-        size ++;
+        size++;
     }
     std::cout << getTotal(prices, size) << "\n";
 }
