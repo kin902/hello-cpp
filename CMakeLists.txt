@@ -32,4 +32,8 @@ add_executable(hello_cpp
         C++_beginner/37_search_an_array_for_an_element.cpp
         C++_beginner/38_sort_an_array.cpp
         C++_beginner/39_fill_function.cpp
-        C++_beginner/40_fill_an_array_with_user_input.cpp)
+        C++_beginner/40_fill_an_array_with_user_input.cpp
+        C++_beginner/41_multidimensional_array.cpp
+        C++_beginner/42_quiz_game.cpp
+        C++_beginner/43_memory_address.cpp
+        C++_beginner/44_value_vs_ref.cpp)
