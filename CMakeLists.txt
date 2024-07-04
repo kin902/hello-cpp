@@ -36,4 +36,6 @@ add_executable(hello_cpp
         C++_beginner/41_multidimensional_array.cpp
         C++_beginner/42_quiz_game.cpp
         C++_beginner/43_memory_address.cpp
-        C++_beginner/44_value_vs_ref.cpp)
+        C++_beginner/44_value_vs_ref.cpp
+        C++_beginner/45_const_parameters.cpp
+        C++_beginner/46_credit_cảd_validator_program.cpp)
