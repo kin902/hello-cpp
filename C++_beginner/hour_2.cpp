@@ -30,7 +30,7 @@ void usefulStringMethod() {
  ** while loop: https://www.youtube.com/watch?v=-TkoO8Z07hI&t=5751s
  */
 void whileLoop() {
-    std::cout << "==================== Useful String Method ====================" << '\n';
+    std::cout << "==================== While Loop ====================" << '\n';
     int number;
     do {
         std::cout << "Enter a positive number: ";

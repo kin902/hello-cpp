@@ -4,6 +4,7 @@
  * const parameters: https://www.youtube.com/watch?v=-TkoO8Z07hI&t=14687s
  */
 
+/*
 void profile(const std::string name, const int age);
 
 int main() {
@@ -15,3 +16,4 @@ int main() {
 void profile(const std::string name, const int age) {
     std::cout << "Hello " << name << ", you are " << age << " years old.\n";
 }
+//*/

@@ -38,4 +38,7 @@ add_executable(hello_cpp
         C++_beginner/43_memory_address.cpp
         C++_beginner/44_value_vs_ref.cpp
         C++_beginner/45_const_parameters.cpp
-        C++_beginner/46_credit_cảd_validator_program.cpp)
+        C++_beginner/46_credit_card_validator_program.cpp
+        C++_beginner/47_pointers.cpp
+        C++_beginner/48_null_pointers.cpp
+        C++_beginner/49_Tic_Tac_Toe_game.cpp)
