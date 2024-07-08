@@ -41,4 +41,5 @@ add_executable(hello_cpp
         C++_beginner/46_credit_card_validator_program.cpp
         C++_beginner/47_pointers.cpp
         C++_beginner/48_null_pointers.cpp
-        C++_beginner/49_Tic_Tac_Toe_game.cpp)
+        C++_beginner/49_Tic_Tac_Toe_game.cpp
+        C++_beginner/50_dynamic_memory.cpp)

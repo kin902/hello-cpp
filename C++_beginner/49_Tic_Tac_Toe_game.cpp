@@ -12,8 +12,9 @@ void computerChoicea(char *space, char computer);
 
 bool checkWinner(const char *space, char player);
 
-bool checkTie(char *space);
+bool checkTie(const char *space);
 
+/*
 int main() {
     char space[9] = {' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ',};
     char player = 'X';
@@ -22,8 +23,16 @@ int main() {
     drawBoard(space);
 
     do {
+        if (checkTie(space)) {
+            running = false;
+            break;
+        }
         playerChoicea(space, player);
         if (checkWinner(space, player)) {
+            running = false;
+            break;
+        }
+        else if (checkTie(space)) {
             running = false;
             break;
         }
@@ -34,8 +43,15 @@ int main() {
             running = false;
             break;
         }
+        else if (checkTie(space)) {
+            running = false;
+            break;
+        }
     } while (running);
     drawBoard(space);
+
+    std::cout << "Thank you for playing!\n";
+    return 0;
 }
 
 void drawBoard(const char *space) {
@@ -110,7 +126,14 @@ bool checkWinner(const char *space, const char player) {
     return true;
 }
 
-bool checkTie(char *space) {
+bool checkTie(const char *space) {
+    for(int b = 0; b < 9; b++) {
+        if(space[b] == ' ') {
+            return false;
+        }
+    }
 
+    std::cout << "IT IS A TIE!\n";
     return true;
 }
+//*/
