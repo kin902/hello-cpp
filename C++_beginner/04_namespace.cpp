@@ -18,5 +18,7 @@ int main() {
     using namespace second;
 
     std::cout << x << " - " << first::x << '\n';
+
+    return 0;
 }
 //*/

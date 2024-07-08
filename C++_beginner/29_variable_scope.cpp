@@ -9,7 +9,7 @@ void printNum();
 int myNum = 3;
 
 int main() {
-std::cout << "==================== Variable Scope ====================" << '\n';
+    std::cout << "==================== Variable Scope ====================" << '\n';
     int myNum = 2;
 
     printNum();

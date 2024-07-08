@@ -22,5 +22,7 @@ int main() {
     c = sqrt(a + b);
 
     std::cout << "Side C: " << c;
+
+    return 0;
 }
 //*/

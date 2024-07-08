@@ -16,5 +16,7 @@ int main() {
     number_t age = 13;
 
     std::cout << firstName << " - "  << age << '\n';
+
+    return 0;
 }
 //*/

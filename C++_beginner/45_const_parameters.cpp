@@ -11,6 +11,8 @@ int main() {
     std::string name = "Bro";
     int age = 12;
     profile(name, age);
+
+    return 0;
 }
 
 void profile(const std::string name, const int age) {

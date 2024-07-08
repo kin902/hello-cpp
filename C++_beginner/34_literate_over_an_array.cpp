@@ -12,5 +12,6 @@ int main() {
     for (const auto & student : students) {
         std::cout << student << "\n";
     }
+    return 0;
 }
 //*/

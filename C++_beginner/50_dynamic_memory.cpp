@@ -1,5 +1,10 @@
 #include<iostream>
 
+/*
+ * dynamic memory: https://www.youtube.com/watch?v=-TkoO8Z07hI&t=17186s
+ */
+
+/*
 int main() {
 
     char *pGrades = nullptr;
@@ -29,3 +34,4 @@ int main() {
 
     return 0;
 }
+//*/

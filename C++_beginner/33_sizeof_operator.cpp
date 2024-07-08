@@ -6,7 +6,7 @@
 
 /*
 int main() {
-std::cout << "==================== Size Of Operator ====================" << '\n';
+    std::cout << "==================== Size Of Operator ====================" << '\n';
     std::string students[] = {"Spongbob", "Patrick", "Squidward", "Mia"};
     std::string name1 = "Bro";
     std::string name2 = "Bro code";

@@ -42,4 +42,14 @@ add_executable(hello_cpp
         C++_beginner/47_pointers.cpp
         C++_beginner/48_null_pointers.cpp
         C++_beginner/49_Tic_Tac_Toe_game.cpp
-        C++_beginner/50_dynamic_memory.cpp)
+        C++_beginner/50_dynamic_memory.cpp
+        C++_beginner/51_recursion.cpp
+        C++_beginner/52_function_templates.cpp
+        C++_beginner/17_useful_string_method.cpp
+        C++_beginner/18_while_loops.cpp
+        C++_beginner/19_dowhile_loops.cpp
+        C++_beginner/20_for_loops.cpp
+        C++_beginner/21_break_&_continue.cpp
+        C++_beginner/23_random_number_generator.cpp
+        C++_beginner/26_user_defind_function.cpp
+        C++_beginner/53_structs.cpp)

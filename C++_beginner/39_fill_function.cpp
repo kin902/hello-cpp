@@ -17,5 +17,6 @@ int main() {
     for(std::string food: foods) {
         std::cout << food << "\n";
     }
+    return 0;
 }
 //*/

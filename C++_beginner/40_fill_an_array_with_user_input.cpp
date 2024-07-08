@@ -22,5 +22,6 @@ int main() {
     for(int i = 0; !foods[i].empty(); i++){
         std::cout << foods[i] << "\n";
     }
+    return 0;
 }
 //*/

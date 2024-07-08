@@ -16,6 +16,7 @@ int main() {
     for (const std::string &student: students) {
         std::cout << student << "\n";
     }
+    return 0;
 }
 //*/
 

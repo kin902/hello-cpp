@@ -15,6 +15,8 @@ int main() {
         size++;
     }
     std::cout << getTotal(prices, size) << "\n";
+
+    return 0;
 }
 
 double getTotal(double prices[], int size) {

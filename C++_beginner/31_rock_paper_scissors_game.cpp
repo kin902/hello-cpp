@@ -27,7 +27,6 @@ int main() {
 
     chooseWinner(player, computer);
 
-
     return 0;
 }
 

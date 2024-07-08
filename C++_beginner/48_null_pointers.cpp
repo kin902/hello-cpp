@@ -12,5 +12,7 @@ int main() {
     int num = 123;
 
     std::cout << pointer;
+
+    return 0;
 }
 //*/
