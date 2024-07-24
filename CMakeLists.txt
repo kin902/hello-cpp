@@ -4,7 +4,6 @@ project(hello_cpp)
 set(CMAKE_CXX_STANDARD 20)
 
 add_executable(hello_cpp
-        C++_beginner/hour_2.cpp
         C++_beginner/29_variable_scope.cpp
         C++_beginner/01_setup_enviroment.cpp
         C++_beginner/02_basic_data_types.cpp
