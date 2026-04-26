@@ -50,5 +50,4 @@ add_executable(hello_cpp
         C++_beginner/20_for_loops.cpp
         C++_beginner/21_break_&_continue.cpp
         C++_beginner/23_random_number_generator.cpp
-        C++_beginner/26_user_defind_function.cpp
-        C++_beginner/53_structs.cpp)
+        C++_beginner/26_user_defind_function.cpp)
